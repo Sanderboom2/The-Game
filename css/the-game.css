@@ -1,0 +1,49 @@
+button{
+	font-size: 34px;
+	color: white;
+	width: 250px;
+	height: 80px;
+	margin: 10px;
+	border: 3px solid black;
+	background-image: url(img/button.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Notable', sans-serif;
+	text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    border-radius: 20px;
+}
+
+h1{
+	font-size: 50px;
+	margin: 10px;
+	color: white;
+	text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-family: 'Luckiest Guy', cursive;
+
+}
+
+h2{
+	font-size: 30px;
+	margin: 10px;
+}
+
+p{
+	font-size: 24.5px;
+	margin: 10px;
+	float: right;
+	outline: solid;
+}
+body{
+	background-color: gray;
+	background-image: url(img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
