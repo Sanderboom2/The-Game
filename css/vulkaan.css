@@ -21,3 +21,7 @@ button{
 h1{
 	float right;
 }
+
+body{
+	background-image: url(img/vulkaan.jpg);
+}
