@@ -3,7 +3,7 @@ var age = prompt('Wat is uw leeftijd?');
 if (age < 14) {
 	alert('Geen toegang! 14+')
 }
-if (age >= 14) {
+else if (age >= 14) {
 	alert('Het spel gaat beginnen! Type A of B in om te andtwoorden. \n(HOOFDLETTER GEVOELIG!)')
 	alert('Je zit rustig op de bank en...')
 	var level1 = prompt('Level 1: \nHet luchtalarm gaat af wat doe je? \nA. Ik doe niks en ik denk dat het een test is. \nB. Ik zoek op wat er aan de hand is en ik neem maatregelen. ')
@@ -65,12 +65,27 @@ else if (level7 == 'A') {
 	alert('Er was nogsteeds lava aan het stromen en het kwam gewoon onder de auto door.')
 }
 if (level8 == 'A') {
-	document.write(' Je helpt mee met bouwen en de lava wordt omgeleid naar zee!')
-	alert('De lava stroomt richting ree je ziet een hond lopen en de lava gaat..')
-	var level9 = prompt('Level 9: \nZijn kant op! Wat doe je? \nA. Ik haal het nooit en red de hond niet. \nB. Ik riskeer mijn leven en red de hond.')
+	document.write(' Je ziet mensen een dam bouwen en je helpt mee met bouwen. De lava wordt omgeleid naar zee!')
+	alert('De lava stroomt richting Zee je ziet een hond lopen en de lava gaat..')
+	var level9 = prompt('Level 9: \nZijn kant op! Wat doe je? \nA. Ik haal het nooit en red de hond niet. \nB. Ik riskeer mijn leven en red de hond. ')
 }
 else if (level8 == 'B') {
 	alert('Doordat je niet mee hielp is de dam niet sterk genoeg heel het land komt door jou onder lava te staan.')
+}
+if (level9 == 'B') {
+	document.write(' Je ziet lava afkomen op een hond je bent zo moedig om hem te redden.')
+	alert('Je vind een groot gat in de dam terwijl de lava dichterbij komt!')
+	var level10 = prompt('Level 10: \nWat doe je? \nA. Ik roep hulp en samen met anderen bouw ik het dicht met stoeptegels.  \nB. Ik denk dat het niet zo veel kwaad kan de lava gaat toch al richting zee. ')
+}
+else if (level9 == 'A') {
+	alert('Je had de hond makkelijk kunnen redden!')
+}
+if (level10 == 'A') {
+	document.write('Je vind een gat in de dam en samen met een groepje mensen bouw je het gat dicht met stoeptegels. Al het lava stroomt de zee in en je hebt het avontuur overleefd!')
+	alert('GOEDZO! Je hebt de game overleefd!')
+}
+else if (level10 == 'B') {
+	alert('Het gat was natuurlijk wel een probleem heel de dam is voor niks gebouwt!')
 }
 else {
 	alert('Vul A of B in!(HOOFDLETTER GEVOELIG)')
