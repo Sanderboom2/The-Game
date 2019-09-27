@@ -50,13 +50,28 @@ else if (level5 == 'B') {
 }
 if (level6 == 'A') {
 	document.write(' Je loopt naar de andere kant van het gebouw en ziet dat de lava je heeft omsingeld. Je neemt een gok en springt over de lava heen.')
-	alert('Je land veilig op de grond en ')
-	var level7 = prompt('Level 7: \n \nA.  \nB. ')
+	alert('Je land veilig op de grond en ziet ineens een regen van as en vuur uit de lucht komen vallen.')
+	var level7 = prompt('Level 7: \nWat doe je? \nA. Ik ga onder de meest dichtbijzijnde auto liggen.  \nB. Ik neem een gok en ren door de regen heen om een afdakje te zoeken. ')
 }
 else if (level6 == 'B') {
 	alert('Het gebouw was niet sterk genoeg je zakt samen met het gebouw weg in een lava zee!')
 }
-
+if (level7 == 'B') {
+	document.write(' Je land veilig op de grond en ziet regen van as en vuur uit de lucht komen je neemt een gok en rent door de regen heen en met veel geluk kom je veilig onder een afdakje te staan.	')
+	alert('Je staan onder een afdakje en ziet dat de regen vermindert verderop wordt er een dam gebouwt.')
+	var level8 = prompt('Level 8: \nDie de lava omleid naar zee wat doe je. \nA. Ik help mee met bouwen. \nB. Ik help niet mee en red mijzelf. ')
+}
+else if (level7 == 'A') {
+	alert('Er was nogsteeds lava aan het stromen en het kwam gewoon onder de auto door.')
+}
+if (level8 == 'A') {
+	document.write(' Je helpt mee met bouwen en de lava wordt omgeleid naar zee!')
+	alert('De lava stroomt richting ree je ziet een hond lopen en de lava gaat..')
+	var level9 = prompt('Level 9: \nZijn kant op! Wat doe je? \nA. Ik haal het nooit en red de hond niet. \nB. Ik riskeer mijn leven en red de hond.')
+}
+else if (level8 == 'B') {
+	alert('Doordat je niet mee hielp is de dam niet sterk genoeg heel het land komt door jou onder lava te staan.')
+}
 else {
 	alert('Vul A of B in!(HOOFDLETTER GEVOELIG)')
 }
